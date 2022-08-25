@@ -8,11 +8,11 @@
 	"scripts": {
 		"dev": "pnpm --filter client dev",
 		"preinstall": "npx only-allow pnpm",
-		"check:format": "prettier --check \"{,!(server|client)/**/*}\" --no-error-on-unmatched-pattern && pnpm run --recursive --parallel --if-present check:format",
-		"check:lint": "eslint \"{,!(server|client)/**/*}.{js,jsx,ts,tsx}\" --no-error-on-unmatched-pattern && pnpm run --recursive --parallel --if-present check:lint",
-		"check:types": "pnpm run --recursive --parallel --if-present check:types",
-		"format": "prettier --check --write \"{,!(server|client)/**/*}\" --no-error-on-unmatched-pattern && pnpm run --recursive --parallel --if-present format",
-		"lint": "eslint \"{,!(server|client)/**/*}.{js,jsx,ts,tsx}\" --fix --no-error-on-unmatched-pattern && pnpm run --recursive --parallel --if-present lint"
+		"check-format": "prettier --check \"{,!(server|client|packages)/**/*}\" --no-error-on-unmatched-pattern && pnpm run --recursive --parallel --if-present check-format",
+		"lint": "eslint \"{,!(server|client|packages)/**/*}.{js,jsx,ts,tsx}\" --no-error-on-unmatched-pattern && pnpm run --recursive --parallel --if-present lint",
+		"types": "pnpm run --recursive --parallel --if-present types",
+		"format": "prettier --check --write \"{,!(server|client|packages)/**/*}\" --no-error-on-unmatched-pattern && pnpm run --recursive --parallel --if-present format",
+		"fix-lint": "eslint \"{,!(server|client|packages)/**/*}.{js,jsx,ts,tsx}\" --fix --no-error-on-unmatched-pattern && pnpm run --recursive --parallel --if-present fix-lint"
 	},
 	"devDependencies": {
 		"@utilize/eslint-config": "^2.2.0",

@@ -1,15 +1,16 @@
 {
+	"private": true,
 	"name": "server",
-	"version": "1.0.0",
-	"description": "",
 	"main": "index.js",
 	"scripts": {
-    "postinstall": "prisma generate",
+		"check-format": "prettier --check .",
+		"format": "prettier --check --write .",
+		"lint": "eslint . --ext .tsx,ts,js,json",
+		"fix-lint": "pnpm lint --fix",
+		"types": "tsc --noEmit -p .",
+		"postinstall": "prisma generate",
 		"dev": "tsx script.ts"
 	},
-	"keywords": [],
-	"author": "",
-	"license": "ISC",
 	"devDependencies": {
 		"@types/node": "^18.6.2",
 		"@utilize/eslint-config": "^2.2.0",

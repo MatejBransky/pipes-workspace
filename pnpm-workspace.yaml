@@ -2,3 +2,4 @@ prefer-workspace-packages: true
 packages:
   - 'server'
   - 'client'
+  - 'packages/*'
