@@ -15,14 +15,14 @@
 		"react-dom": "^18.2.0"
 	},
 	"devDependencies": {
-		"@types/node": "^18.6.2",
-		"@types/react": "^18.0.17",
-		"@types/react-dom": "^18.0.6",
-		"@utilize/eslint-config": "^2.2.0",
-		"@utilize/prettier-config": "^1.1.0",
-		"eslint": "^8.20.0",
-		"prettier": "^2.7.1",
-		"typescript": "^4.6.4"
+		"@types/node": "18.7.13",
+		"@types/react": "18.0.17",
+		"@types/react-dom": "18.0.6",
+		"@utilize/eslint-config": "2.2.0",
+		"@utilize/prettier-config": "1.1.0",
+		"eslint": "8.22.0",
+		"prettier": "2.7.1",
+		"typescript": "4.7.4"
 	},
 	"eslintConfig": {
 		"extends": "@utilize/eslint-config"
