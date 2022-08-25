@@ -14,8 +14,14 @@
 		"preview": "vite preview"
 	},
 	"dependencies": {
-		"@pkg/datagrid-core": "workspace:*",
+		"@babel/core": "^7.18.13",
+		"@chakra-ui/react": "^2.2.9",
+		"@chakra-ui/styled-system": "^2.2.8",
+		"@emotion/react": "^11",
+		"@emotion/styled": "^11",
 		"@pkg/datagrid-chakra-ui": "workspace:*",
+		"@pkg/datagrid-core": "workspace:*",
+		"framer-motion": "^6",
 		"react": "18.2.0",
 		"react-dom": "18.2.0"
 	},
