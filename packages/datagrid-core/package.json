@@ -11,12 +11,12 @@
 		"types": "tsc --noEmit -p ."
 	},
 	"devDependencies": {
-		"@types/node": "18.7.13",
-		"@utilize/eslint-config": "2.2.0",
+		"@types/node": "18.11.9",
+		"@utilize/eslint-config": "2.3.0",
 		"@utilize/prettier-config": "1.1.0",
-		"eslint": "8.22.0",
+		"eslint": "8.28.0",
 		"prettier": "2.7.1",
-		"typescript": "4.8.2"
+		"typescript": "4.9.3"
 	},
 	"eslintConfig": {
 		"extends": "@utilize/eslint-config"
