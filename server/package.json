@@ -16,7 +16,7 @@
 		"@utilize/eslint-config": "2.2.0",
 		"@utilize/prettier-config": "1.1.0",
 		"eslint": "8.22.0",
-		"prettier": "2.7.1",
+		"prettier": "3.2.5",
 		"prisma": "4.2.1",
 		"tsx": "3.8.2",
 		"typescript": "4.8.2"
