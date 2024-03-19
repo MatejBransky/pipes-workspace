@@ -11,7 +11,7 @@
 		"types": "tsc --noEmit -p ."
 	},
 	"devDependencies": {
-		"@types/node": "18.7.13",
+		"@types/node": "20.11.30",
 		"@utilize/eslint-config": "2.2.0",
 		"@utilize/prettier-config": "1.1.0",
 		"eslint": "8.22.0",
